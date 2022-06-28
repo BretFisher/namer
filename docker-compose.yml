@@ -1,7 +1,8 @@
-www:
-  build: .
-  volumes:
-    - .:/src
-  ports:
-    - 80:9292
+services:
+  www:
+    build: .
+    volumes:
+      - .:/src
+    ports:
+      - 80:9292
 
